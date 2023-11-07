@@ -1,0 +1,81 @@
+@import url("global.css");
+
+/* Formata os checkbox */
+.categories li input {
+    /* Remove aparência padrão do input*/
+    appearance: none;
+    -webkit-apperance: none;
+    -noz-apperance: none;
+
+    /* Define o tamanho do input */
+    width: 2rem;
+    height: 2rem;
+
+    /* Define bg */
+    background-color: var(--light-100);
+
+
+    /* Add borda */
+    border: 0.1rem solid var(--dark-30);
+
+    /* Insere sombra */
+    /* box-shadow: 0 0 0.5rem #aac5c6; */
+
+    /* Margem à direita dos inputs */
+    margin-right: .5rem;
+
+    /* Add transição */
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+
+.categories ul input:checked {
+    border: .4rem solid var(--dark-30);
+    background-color: var(--light-100);
+
+}
+
+
+
+/* Formata os radios */
+label input {
+    /* Remove aparência padrão do input*/
+    appearance: none;
+    -webkit-apperance: none;
+    -noz-apperance: none;
+
+    /* Define o tamanho do input */
+    width: 2.2rem;
+    height: 2.2rem;
+
+    /* Define bg */
+    background-color: var(--light-100);
+
+
+    /* Add borda */
+    border: 0.1rem solid var(--dark-30);
+
+    /* Deixa as bordas redondas */
+    border-radius: 50%;
+
+    /* Insere sombra */
+    /* box-shadow: 0 0 0.5rem #aac5c6; */
+
+
+    /* Margem à direita dos inputs */
+    margin-right: 1rem;
+
+    position: relative;
+    top: .4rem;
+
+    /* Add transição */
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+
+
+label input:checked {
+    border: .6rem solid var(--dark-30);
+    background-color: var(--light-100);
+
+}
